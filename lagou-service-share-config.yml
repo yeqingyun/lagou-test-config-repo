@@ -1,0 +1,23 @@
+spring:
+  #数据源
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/lagou_code?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    username: root
+    password: ldis0815
+  #jap
+  jpa:
+    database: MySQL
+    show-sql: true
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl  #避免将驼峰命名转换为下划线命名
+
+# 邮箱配置
+email:
+  serverAccount: qingyunye@foxmail.com
+  serverPassword: vfezihrhdpnpbehi
+
+# IP防暴刷
+iplimit:
+  count: 0.1
