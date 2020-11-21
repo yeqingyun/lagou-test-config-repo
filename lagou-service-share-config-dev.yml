@@ -4,7 +4,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/lagou_code?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
     username: root
-    password: ldis0815
+    password: root
   #jap
   jpa:
     database: MySQL
